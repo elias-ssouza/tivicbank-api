@@ -1,16 +1,12 @@
 package com.darkgreen.bankapi.service;
 
 import java.util.Date;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.darkgreen.bankapi.dto.NovoCorrentista;
 import com.darkgreen.bankapi.model.Conta;
 import com.darkgreen.bankapi.model.Correntista;
 import com.darkgreen.bankapi.repository.CorrentistaRepository;
-
-
 
 @Service
 public class CorrentistaService {

@@ -1,10 +1,8 @@
 package com.darkgreen.bankapi.service;
 
 import java.time.LocalDateTime;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.darkgreen.bankapi.dto.NovaMovimentacao;
 import com.darkgreen.bankapi.model.Correntista;
 import com.darkgreen.bankapi.model.Movimentacao;
@@ -21,8 +19,6 @@ public class MovimentacaoService {
 	private CorrentistaRepository correntistaRepository;
 	public void save (NovaMovimentacao novaMovimentacao) {
 		Movimentacao movimentacao = new Movimentacao();
-		
-		//Double valor = novaMovimentacao.getTipo()==MovimentacaoTipo.RECEITA ? novaMovimentacao.getValor() * -1;
 		
 		Double valor = novaMovimentacao.getValor();
 		if(novaMovimentacao.getTipo()== MovimentacaoTipo.SAQUE)

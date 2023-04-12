@@ -8,5 +8,6 @@ public class BankApiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BankApiApplication.class, args);
+		//https://tivic-bank-api.herokuapp.com/swagger-ui.html
 	}
 }
