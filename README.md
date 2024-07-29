@@ -7,12 +7,18 @@ O Tivic Bank é uma aplicação desenvolvida para simular operações bancárias
 
 ### Funcionalidades
 Cadastro de Usuários: Permite a criação de novas contas de usuários.
+
 Depósitos: Os usuários podem depositar dinheiro em suas contas.
+
 Retiradas: Os usuários podem retirar dinheiro de suas contas.
+
 Consulta de Saldo: Os usuários podem consultar o saldo atual de suas contas.
+
 Histórico de Transações: Registra todas as operações realizadas pelos usuários.
 
 ### Tecnologias Utilizadas
 Linguagem de Programação: Java
+
 Framework Web: Spring Boot
+
 Banco de Dados: Postgres
